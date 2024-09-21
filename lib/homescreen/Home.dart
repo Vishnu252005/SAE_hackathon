@@ -1,8 +1,8 @@
-import 'package:emart_app/cartscreen/cartscreen.dart';
-import 'package:emart_app/categoryscreen/category_screen.dart';
-import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/controller/homecontroller.dart';
-import 'package:emart_app/homescreen/home_screen.dart';
+import '../cartscreen/cartscreen.dart';
+import '../categoryscreen/category_screen.dart';
+import '../consts/consts.dart';
+import '../controller/homecontroller.dart';
+import '../homescreen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

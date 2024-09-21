@@ -1,18 +1,18 @@
-#ifndef FLUTTER_MY_APPLICATION_H_
-#define FLUTTER_MY_APPLICATION_H_
+#ifndef FLUTTER_sae_hackathonLICATION_H_
+#define FLUTTER_sae_hackathonLICATION_H_
 
 #include <gtk/gtk.h>
 
-G_DECLARE_FINAL_TYPE(MyApplication, my_application, MY, APPLICATION,
+G_DECLARE_FINAL_TYPE(MyApplication, sae_hackathonlication, MY, APPLICATION,
                      GtkApplication)
 
 /**
- * my_application_new:
+ * sae_hackathonlication_new:
  *
  * Creates a new Flutter-based application.
  *
  * Returns: a new #MyApplication.
  */
-MyApplication* my_application_new();
+MyApplication* sae_hackathonlication_new();
 
-#endif  // FLUTTER_MY_APPLICATION_H_
+#endif  // FLUTTER_sae_hackathonLICATION_H_

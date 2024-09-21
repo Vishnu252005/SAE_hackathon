@@ -1,4 +1,4 @@
-import 'package:emart_app/consts/consts.dart';
+import '/consts/consts.dart';
 import 'package:flutter/cupertino.dart';
 
 Widget featuredButton({required String? title, icon}) {
