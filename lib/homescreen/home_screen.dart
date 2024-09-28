@@ -1,5 +1,3 @@
-
-
 import 'package:sae_hackathon/consts/consts.dart';
 import 'package:sae_hackathon/consts/lists.dart';
 import 'package:sae_hackathon/widgets_common/homebuttons.dart';
@@ -225,7 +223,29 @@ class HomeScreen extends StatelessWidget {
                         ),
                         itemBuilder: (context, index) {
                           return Column(
-                            children: [Image.asset(name)],
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Image.asset(
+                                imgP5,
+                                width: 200,
+                                height: 200,
+                                fit: BoxFit.cover,
+                              ),
+                              const Spacer(),
+                              10.heightBox,
+                              "laptop 4GB RAM"
+                                  .text
+                                  .fontFamily(semibold)
+                                  .color(fontGrey)
+                                  .make(),
+                              10.heightBox,
+                              "\$600"
+                                  .text
+                                  .fontFamily(semibold)
+                                  .color(redColor)
+                                  .size(16)
+                                  .make(),
+                            ],
                           ).box.roundedSM.white.make();
                         })
                   ],

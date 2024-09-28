@@ -22,3 +22,13 @@ const cart = "cart";
 const account = "account";
 const todayDeal = "today 's deal";
 const fontcategory = "font category";
+//category strings
+const womenClothing = "Women CLothing",
+    newClothingFashion = "Men Clothing & Fashion",
+    compAcess = "Computer Accesorries",
+    automobile = "Automobile",
+    kidtoys = "Kids & Toys",
+    sports = "Sports",
+    jewelery = "Jewelery",
+    cellphone = "Cellphone & Tab",
+    furniture = "Furniture ";
